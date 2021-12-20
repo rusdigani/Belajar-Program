@@ -5,9 +5,8 @@
 <tr><td>Jumlah Ayam = </td>
 
 <td><input type="text"name="jum"></td></tr>
-
-<tr><td><input type="submit"value="kirim"></td></tr>
-
+<tr><td><input type="submit"value="kirim">
+<input type="reset" name="reset" value="reset" ></td></tr>
 </table>
 
 </form>
