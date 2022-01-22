@@ -1,17 +1,17 @@
-public class SoalUAS4 {
-    public static void main(String[] args) {
-   // Lengkapi kode berikut :
-    	 int n= 5;
-         int i, j;
-         for (int i = 0; i <= n; i++){
-             for (int j = i; j <= n; j++){
-                 System.out.print(" ");
-             }
-             for (int j = 0; j < i; j++){
-                 System.out.print("*");
-             }
-             System.out.println();
-             
-         }
-     }
+public class SoalUAS7 {
+	public static void main (String args[])
+	{
+		int n = 5;
+        int i,j; 
+		for (i = 1; i <= n; i++){
+			for(j=2*(n-i); j>=0; j--) { // inner loop for spaces
+				System.out.print(" "); // printing space
+			}
+			for (j = 0; j < i; j++){
+				System.out.print(j+" ");
+			}
+			System.out.println();
+		}
+	}
+
 }
