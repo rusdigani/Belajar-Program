@@ -2,6 +2,7 @@ public class SoalUAS4 {
     public static void main(String[] args) {
    // Lengkapi kode berikut :
     	 int n= 5;
+         int i, j;
          for (int i = 0; i <= n; i++){
              for (int j = i; j <= n; j++){
                  System.out.print(" ");
