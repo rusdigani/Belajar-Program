@@ -1,4 +1,4 @@
-public class SoalUAS7 {
+public class SoalUAS4 {
 	public static void main (String args[])
 	{
 		int n = 5;
