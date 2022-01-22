@@ -2,7 +2,7 @@ public class SoalUAS7 {
 	public static void main (String args[])
 	{
 		int n = 5;
-        int i,j; 
+                int i,j; 
 		for (i = 1; i <= n; i++){
 			for(j=2*(n-i); j>=0; j--) { // inner loop for spaces
 				System.out.print(" "); // printing space
